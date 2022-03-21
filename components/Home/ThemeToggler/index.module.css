@@ -1,0 +1,39 @@
+.toggler-wrapper {
+    width: 3.5rem;
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    border-radius: 2rem;
+}
+.theme-input {
+    position: absolute;
+    opacity: 0;
+    z-index: 99;
+}
+.theme-label {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.theme-icon {
+    margin: 0;
+    padding: 0.25rem;
+    width: 1.75rem;
+}
+.theme-ball {
+    width: 1.75rem;
+    height: 1.75rem;
+    position: absolute;
+    left: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+.theme-input:checked + label div {
+    transform: translateX(1.75rem);
+}

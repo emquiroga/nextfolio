@@ -1,0 +1,56 @@
+.home-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-left, .wrapper-right {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.img-container {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+}
+.img-home {
+    border-radius: 50%;
+}
+.home-title {
+    font-family: 'Urbanist', sans-serif;
+}
+.home-description {
+    font-family: 'Metrophobic', sans-serif;
+}
+@media screen and (min-width: 768px) {
+    .home-container {
+        flex-flow: row wrap;
+    }
+    .wrapper-left, .wrapper-right {
+        width: 50%;
+        height: 100%;
+    }
+    @media screen and (min-height: 768px) {
+        .wrapper-left {
+            justify-content: flex-start;
+            padding-top: 15vh;
+        }
+        .wrapper-right {
+            justify-content: flex-end;
+            padding-bottom: 15vh;
+        }
+    }
+}
+@media screen and (min-width: 1024px) {
+    .img-container {
+        width: 300px;
+        height: 300px;
+        margin: 4rem auto;
+    }
+}

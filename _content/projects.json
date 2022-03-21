@@ -1,0 +1,20 @@
+{
+    "projects": [
+        {
+        "title": "California Dreaming",
+        "url": "https://emquiroga.github.io/california-dreaming/",
+        "description":
+              "↳ Responsive Website desarrollado con HTML, Sass y JavaScript; bundle hecho con Gulp."
+        },
+        {
+        "title": "Dimacofi",
+        "url": "https://emquiroga.github.io/dimacofi-fullpage/",
+        "description": "↳ Responsive Website & Home Banking, desarrolladas con HTML, Sass y Bootstrap."
+        },
+        {
+        "title": "Loopstudios",
+        "url": "https://loopstudios-fem-rho.vercel.app/",
+        "description": "↳ Landing Page (template) desarrollada con React y Sass."
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "about": {
+        "p1": "Vivo en la ciudad de La Plata, Buenos Aires, Argentina. Soy un apasionado por los lenguajes, la tecnología y la comunicación. Encuentro en el desarrollo web un medio ideal para canalizar mis intereses, conocimientos y creatividad.",
+        "p2": "Actualmente trabajo como Jr. Fullstack Developer en Andreani Grupo Logístico y también como Web Developer en modalidad freelance.",
+        "p3": "Mi fuerte es el desarrollo frontend con React y el maquetado web. Me encanta el desarrollo perfect, las buenas prácticas de código y las arquitecturas CLEAN.",
+        "p4": "Algunos de los lenguajes, librerías y frameworks con los que he trabajado son: JavaScript(ES6)/TypeScript, React (Next.js), Redux (toolkit), react-router, Jest/react-testing-library HTML, CSS/Sass, Bootstrap/Tailwind/Materialize, Laravel, .NET(C#) y MySQL."
+    }
+}

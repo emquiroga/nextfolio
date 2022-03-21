@@ -1,0 +1,11 @@
+.project-item {
+    height: calc(100% / 3);
+    display: block;
+}
+.item-title {
+    cursor: pointer;
+    transition: all ease-in-out 150ms;
+}
+.item-title:hover {
+    transform: scale(1.035)
+}
