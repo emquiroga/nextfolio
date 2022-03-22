@@ -1,7 +1,8 @@
 .projects-wrapper {
     width: 70%;
+    height: calc(80vh);
     padding: 1rem;
-    margin: 0 auto;
+    margin: auto;
 }
 .projects-wrapper:hover > div div {
     filter: blur(5px) opacity(60%);
@@ -9,5 +10,6 @@
 }
 .projects-wrapper div:hover div {
     filter: blur(0px) opacity(100%);
+    transform: scale(1.035);
     transition: all 0.2s ease;
 }

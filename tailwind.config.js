@@ -20,9 +20,9 @@ module.exports = {
       secondary: ["Metrophobic", "sans-serif"]
     },
     fontSize: {
-      small: "clamp(16px, 2vw, 20px)",
-      medium: "clamp(20px, 2vw, 24px)",
-      large: "clamp(24px, 2vw, 32px)",
+      small: "clamp(16px, 4vw, 20px)",
+      medium: "clamp(20px, 4vw, 24px)",
+      large: "clamp(24px, 4vw, 32px)",
       xlarge: "clamp(32px, 2vw, 46px)",
       xXL: "clamp(60px, 2vw, 85px)"
     }

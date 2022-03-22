@@ -109,7 +109,7 @@ const ContactForm = () => {
               />
             </div>
             <button
-              className={`text-small font-bold rounded-md w-2/4 p-2 my-1 bg-textSecondary dark:bg-dtextSecondary text-body dark:text-dbody ${styles["btn-submit"]}`}
+              className={`text-small font-bold rounded-md w-2/4 p-2 my-1 bg-textSecondary dark:bg-dtextSecondary text-body dark:text-dbody hover:bg-special hover:text-dbody dark:hover:bg-special dark:hover:text-body ${styles["submit-btn"]}`}
               type="submit"
             >
               Enviar

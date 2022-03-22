@@ -8,7 +8,7 @@ interface IProjectsItemProps {
 
 const ProjectItem = ({ title, description, url }: IProjectsItemProps) => {
   return (
-    <div className={`py-6 ${styles["project-item"]}`}>
+    <div className={`pb-4 ${styles["project-item"]}`}>
       <div>
         <div
           className={`${styles["item-title"]} mb-4 transition-all text-textPrimary dark:text-dtextPrimary font-primary font-bold text-medium hover:text-special dark:hover:text-special`}

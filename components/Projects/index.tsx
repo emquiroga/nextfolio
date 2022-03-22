@@ -18,13 +18,13 @@ const PROJECTS = [
   {
     title: "Loopstudios",
     url: "https://loopstudios-fem-rho.vercel.app/",
-    description: "↳ Landing Page (template) desarrollada con React y Sass."
+    description: "↳ Responsive Landing Page (template) desarrollada con React y Sass (Frontend Mentor)."
   }
 ];
 const ProjectsSection = () => {
   return (
     <SectionLayout>
-      <h2 className="text-large font-secondary font-semibold w-full mx-auto my-2 text-center text-textSecondary dark:text-dtextPrimary">
+      <h2 className="text-large font-secondary font-semibold w-full mx-auto my-4 text-center text-textSecondary dark:text-dtextPrimary">
         {" "}
         <span className="text-special">&lt;</span> Selección de proyectos {` `}
         <span className="text-special">/&gt;</span>

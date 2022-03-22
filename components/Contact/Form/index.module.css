@@ -28,3 +28,7 @@
     border-color: transparent;
     box-shadow: 1px 1px 1px 1px #ff6b7a;
 }
+.submit-btn {
+    display: block;
+    transition: all ease-in-out 150ms;
+}
