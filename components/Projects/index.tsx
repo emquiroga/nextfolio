@@ -18,7 +18,8 @@ const PROJECTS = [
   {
     title: "Loopstudios",
     url: "https://loopstudios-fem-rho.vercel.app/",
-    description: "↳ Responsive Landing Page (template) desarrollada con React y Sass (Frontend Mentor)."
+    description:
+      "↳ Responsive Landing Page (template) desarrollada con React y Sass (Frontend Mentor)."
   }
 ];
 const ProjectsSection = () => {

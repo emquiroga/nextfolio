@@ -21,9 +21,11 @@ const HomeSection = () => {
               width={100}
             />
           </figure>
-          <h1 className={`text-xXL font-secondary max-w-xs my-4 text-center text-textSecondary dark:text-dtextPrimary ${styles["main-title"]}`}>
-            <span className="text-special">E</span>miliano
-            Quiroga<span className="text-special">.</span>
+          <h1
+            className={`text-xXL font-secondary max-w-xs my-4 text-center text-textSecondary dark:text-dtextPrimary ${styles["main-title"]}`}
+          >
+            <span className="text-special">E</span>miliano Quiroga
+            <span className="text-special">.</span>
           </h1>
         </div>
         <div className={styles["wrapper-right"]}>

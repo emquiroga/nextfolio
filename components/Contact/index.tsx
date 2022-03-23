@@ -1,4 +1,5 @@
 import SectionLayout from "../SectionLayout";
+
 import ContactList from "./List";
 
 const ContactSection = () => {
