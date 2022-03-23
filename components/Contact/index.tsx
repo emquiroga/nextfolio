@@ -1,6 +1,5 @@
 import SectionLayout from "../SectionLayout";
-
-import ContactForm from "./Form";
+import ContactList from "./List";
 
 const ContactSection = () => {
   return (
@@ -10,7 +9,7 @@ const ContactSection = () => {
         <span className="text-special">?</span> <span className="text-special">¡</span>Pongámonos en
         contacto<span className="text-special">!</span>
       </h3>
-      <ContactForm />
+      <ContactList />
     </SectionLayout>
   );
 };

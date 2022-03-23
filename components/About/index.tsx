@@ -14,16 +14,15 @@ const AboutSection = () => {
       >
         <p className="my-4 font-primary text-small">
           Vivo en la ciudad de La Plata, Buenos Aires, Argentina. Soy un apasionado por los
-          lenguajes, la tecnología y la comunicación. Encuentro en el desarrollo web un medio ideal
-          para canalizar mis intereses, conocimientos y creatividad.
+          lenguajes, la tecnología y la comunicación. 
         </p>
         <p className="my-4 font-primary text-small">
-          Actualmente trabajo como Jr. Fullstack Developer en Andreani Grupo Logístico y también
+          Actualmente trabajo como Jr. Developer en Andreani Grupo Logístico y también
           como Web Developer en modalidad freelance.
         </p>
         <p className="my-4 font-primary text-small">
           Mi fuerte es el desarrollo frontend con React y el maquetado web. Me encanta el diseño
-          pixel-perfect, las buenas prácticas de código y las arquitecturas CLEAN.
+          pixel-perfect, las buenas prácticas de código y los diseños responsivos.
         </p>
         <p className="my-4 font-primary text-small">
           Algunos de los lenguajes, librerías y frameworks con los que he trabajado son:

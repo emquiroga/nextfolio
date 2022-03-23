@@ -22,12 +22,7 @@
 .img-home {
     border-radius: 50%;
 }
-.home-title {
-    font-family: 'Urbanist', sans-serif;
-}
-.home-description {
-    font-family: 'Metrophobic', sans-serif;
-}
+
 @media screen and (min-width: 768px) {
     .home-container {
         flex-flow: row wrap;
