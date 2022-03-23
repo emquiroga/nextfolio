@@ -29,7 +29,7 @@ const ContactList = () => {
     <div className={styles["list-container"]}>
       {showEmail && (
         <div
-          className={`cursor-pointer py-3 px-4 rounded-lg font-semibold dark:bg-dtextSecondary dark:text-textPrimary bg-textSecondary text-dtextSecondary hover:bg-special dark:hover:bg-special ${styles["email-popup"]}`}
+          className={`cursor-pointer py-3 px-4 rounded-lg font-semibold dark:bg-dtextSecondary dark:text-textPrimary bg-textSecondary text-dtextSecondary hover:bg-special hover:text-textSecondary dark:hover:bg-special ${styles["email-popup"]}`}
           onClick={copyEmail}
         >
           {copied ? <p>¡Email copiado!</p> : <p>emiliano.quiroga093@gmail.com</p>}
@@ -111,30 +111,6 @@ const ContactList = () => {
             <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"
-                fill="currentColor"
-              />
-            </svg>
-          </a>
-        </li>
-        <li className={styles["list-item"]}>
-          <a
-            className={styles["list-link"]}
-            href="https://drive.google.com/file/d/16POk_AXtASMkPffgbcOuLtgwukVR1VAl/view"
-            rel="noreferrer"
-            target="_blank"
-            title="Curriculum Vitae"
-          >
-            <svg
-              aria-hidden="true"
-              data-icon="folder"
-              data-prefix="fas"
-              focusable="false"
-              role="img"
-              viewBox="0 0 512 512"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M464 128H272l-64-64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48z"
                 fill="currentColor"
               />
             </svg>
