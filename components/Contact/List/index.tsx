@@ -29,7 +29,7 @@ const ContactList = () => {
     <div className={styles["list-container"]}>
       {showEmail && (
         <div
-          className={`cursor-pointer py-3 px-4 rounded-lg font-semibold dark:bg-dtextSecondary dark:text-textPrimary bg-textSecondary text-dtextSecondary hover:bg-special dark:hover:bg-special ${styles["email-popup"]}`}
+          className={`cursor-pointer py-3 px-4 rounded-lg font-semibold dark:bg-dtextSecondary dark:text-textPrimary bg-textSecondary text-dtextSecondary hover:bg-special hover:text-textSecondary dark:hover:bg-special ${styles["email-popup"]}`}
           onClick={copyEmail}
         >
           {copied ? <p>¡Email copiado!</p> : <p>emiliano.quiroga093@gmail.com</p>}
