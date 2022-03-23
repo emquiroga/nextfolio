@@ -27,7 +27,5 @@ module.exports = {
       xXL: "clamp(60px, 2vw, 85px)"
     }
   },
-  plugins: [
-    require('@tailwindcss/forms')
-  ]
+  plugins: []
 };
