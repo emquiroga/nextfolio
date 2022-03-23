@@ -1,20 +1,9 @@
-import { useCallback, useState } from "react";
-import { useTheme } from "next-themes";
+import useLocalTheme from "../../../hooks/useLocalTheme";
 
 import styles from "./index.module.css";
 
 const ThemeToggler = () => {
-  const [checked, setChecked] = useState(false);
-  const { theme, setTheme } = useTheme();
-
-  const toggleCheck = useCallback(() => {
-    const toggleTheme = () => {
-      setTheme(theme === "light" ? "dark" : "light");
-    };
-
-    setChecked(!checked);
-    toggleTheme();
-  }, [checked, theme, setTheme]);
+  const { checked, toggleCheck } = useLocalTheme();
 
   return (
     <div className={`bg-textPrimary dark:bg-dtextPrimary ${styles["toggler-wrapper"]}`}>
